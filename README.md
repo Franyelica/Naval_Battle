@@ -17,21 +17,20 @@ Este es un proyecto web de un juego de **Batalla Naval**, desarrollado con un en
 --Install dependencies
     cd backend
     pip install -r requirements.txt (si este funciona utilizar pip install --user fastapi uvicorn pydantic websockets python-multipart)
-###🎨 Frontend (React + Tailwind)
-    npm install
-    npm install lucide-react
+## 🎨 Frontend (React + Tailwind)
+pm install
+npm install lucide-react
 
-# Install Tailwind CSS
+--Install Tailwind CSS
   npm install -D tailwindcss postcss autoprefixer
-
-# Generate config files
+--Generate config files
   npx tailwindcss init -p
 
-##Ejecutar
-### 🔙 Backend (FastAPI)
+### Ejecutar
+## 🔙 Backend (FastAPI)
   cd backend
-uvicorn api_server:app --host 0.0.0.0 --port 8001
-###🎨 Frontend
+   uvicorn api_server:app --host 0.0.0.0 --port 8001
+## 🎨 Frontend
   cd frontend
   npm start
 

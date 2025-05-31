@@ -19,13 +19,14 @@ class AttackBoard:
     def update_attack(self, position: str, result: str):
         """Update board with attack result"""
         self.attacks.add(position)
-
+        print(self.grid[position], position)
         if "404-failed" in result:
             self.grid[position] = 'O' #miss
         elif "202-shocked" in result:
             self.grid[position] = 'X' #hit
         elif "200-sunken" in result or "500-sunken" in result:
             self.grid[position] = '#' #sunk
+        print(self.grid)
 
     def display(self):
         """Display the attack board"""

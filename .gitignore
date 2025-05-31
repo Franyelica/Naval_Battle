@@ -1,0 +1,8 @@
+# Ignorar dependencias de Node.js en el frontend
+frontend/node_modules/
+
+# Ignorar entornos virtuales de Python en el backend
+backend/venv/
+
+# Ignorar archivos compilados de Python generados
+backend/__pycache__/
